@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1",
+    "nodemon": "^3.0.1"
+  },
+  "name": "login-and-signup",
+  "version": "1.0.0",
+  "description": "This is my implementation of login and signup using node.js, express.js and mongodb",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "las"
+  ],
+  "author": "Atri Thakar",
+  "license": "ISC"
+}

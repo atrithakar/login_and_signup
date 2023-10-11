@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        .container {
+            /* margin: auto; */
+            /* background-color: purple; */
+            /* border: 5px solid; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            text-align: center;
+        }
+        .auth{
+            margin: 17px 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: aqua;
+        }
+        input{
+            border-width: 0 0 3px 0;
+            border-color: blueviolet;
+            width: 220px;
+            background-color: black;
+            color: aqua;
+        }
+        button{
+            width: 225px;
+            height: 40px;
+            background-color:rgb(49, 49, 93);
+            color: aqua;
+            border: 0;
+            transition-duration: 0.5s;
+            
+        }
+        button:hover{
+            width: 225px;
+            height: 40px;
+            background-color:rgb(50, 50, 154);
+            color: aqua;
+            border: 0;
+            transition-duration: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="/signup" method="post">
+        <input id="email" name="email" type="email" placeholder="Enter your email here" required class="auth"><br>
+        <input id="password" name="password" type="password" placeholder="Enter your password here" required class="auth"><br>
+        <button type="submit" class="auth">Signup</button><br>
+    </form>
+    <a href="/" class="auth">Already a user? please login!!!</a>
+    </div>
+</body>
+</html>
